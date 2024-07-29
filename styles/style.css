@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     margin: 0;
     padding: 0;
 }
+
+.shape{
+    font-family: 'Miama', sans-serif; 
+    line-height: 1;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120%;                                   
+}
+
+.healthy{
+    position: absolute;
+    top: 318px;
+    left: -7px;
+}
+
 .inter{
     font-family: "Inter", sans-serif;
     background-color: black;
@@ -17,6 +33,10 @@
 
 /* header section */
 
+
+.bars{
+    display: none;
+}
 .header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
@@ -80,6 +100,7 @@ font-weight: 400;
 .intro-section{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .intro-title h1{
@@ -87,11 +108,15 @@ font-weight: 400;
 height: 282px;
 color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 78px;
+font-size: 81px;
+font-weight: 900;
 }
 
 .intro-title{
-    margin-top: 210px;
+    margin-top: 125px;
+    width: 599.05px;
+    height: 490px;
+    
   
 }
 .intro-title p{
@@ -102,17 +127,12 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 400;
 margin-top: 35px;
+margin-bottom: 20px;
 
-}
-
-.intro-title{
-    margin-top: 65px;
-    width: 599.05px;
-    height: 440px;
 }
 
 .btn-style{
-    margin: 28px 7px;
+    margin: 28px 12px 28px 7px;
     width: 224px;
     height: 54px;
     border-radius: 42px;
@@ -137,9 +157,9 @@ border: 1px solid rgb(255, 255, 255);
 border-radius: 42px;
 }
 
-.body-builder-img{
-    width: 500px;
-    height: 580px;
+.body-builder-image{
+    width: 450px;
+    height: 690px;
 }
 
 .intro-image{
@@ -149,8 +169,8 @@ border-radius: 42px;
     position: absolute;
     width: 193px;
 height: 98px;
-left: 255px;
-top: 145px;
+left: 325px;
+top: 180px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
@@ -165,6 +185,18 @@ padding-left: 15px;
 
 }
 
+.circle{
+    display: flex;
+    align-items: center;
+    
+}
+.rounded-box{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background: rgb(230, 83, 60);
+   
+}
 .num-1{
     color: rgb(255, 255, 255);
 font-family: Inter;
@@ -179,8 +211,8 @@ text-align: left;
     position: absolute;
 width: 206px;
 height: 96px;
-left: -120px;
-top: 420px;
+left: -95px;
+top: 515px;
 
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
@@ -206,4 +238,353 @@ font-weight: 900;
 line-height: 24px;
 letter-spacing: 0.3px;
 text-align: left;
+}
+
+
+
+
+
+/* Habit section */
+
+.habit-section{
+    max-width: 1440px;
+    margin: 100px auto 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.habit-description{
+    max-width: 1440px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    
+    padding: 0px;
+}
+
+.habit-paragraph{
+    width: 650px;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+
+margin: 14px 0px 25px;
+}
+.habit-section-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 30px 0px 50px;
+}
+.image1{
+    margin-top: 58px;
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+}
+
+.image-content{
+    width: 231px;
+    height: 274px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.image-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+margin-top: 25px;
+margin-bottom: 10px;
+
+}
+
+.image-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+}
+
+
+
+/* Run section */
+
+
+
+.run-section{
+    max-width: 1440px;
+    margin: 55px auto;
+    height: 371px;
+     border-radius: 18px;
+    background: rgb(34, 34, 34);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 35px;
+     
+}
+
+.run-description{
+    width: 470px;
+   height: 320px;
+
+}
+.run-title{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 120%;
+    margin: 14px 0px;
+    }
+
+.run-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+}
+
+
+.run-img{
+    width: 490px;
+     height: 330px;
+     border-radius: 18px;
+background: url(4);
+}
+    
+.run-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+     background: rgb(230, 83, 60);
+     margin: 34px 0px;
+     border: none;
+
+     color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+}
+
+
+/* responsive design for mobile */
+
+
+@media screen and (max-width:430px) {
+
+    .header{
+        max-width: 100%;
+    }
+
+    .header{
+        background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    }
+    .navbar h2{
+        margin-left: 15px;
+    }
+    
+    .navbar ul{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+     
+    .intro-section{
+        flex-direction: column;
+        padding: 3px;
+        
+    }
+     
+    .intro-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bars{  
+        display: block;
+       margin: 60px;
+       width: 20px;
+       color: white;
+       font-size: 35px;
+    } 
+
+    .intro-title h1{
+        width: 285px;
+        height: 129px;
+        font-size: 36px;
+        
+        
+    }
+    
+    .shape{
+
+        font-size: 54px;
+    }
+
+    .intro-title p{
+        width: 274px;
+       height: 96px;
+       height: 96px;
+       margin-left: 15px;
+    }
+
+    .btn-style{
+        width: 169px;
+        height: 54px;
+        margin-left: 15px;
+    }
+    
+    .download-btn{
+        width: 169px;
+        height: 54px;
+        box-sizing: border-box;
+        padding: 16px 20px 16px 20px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 42px;
+       font-size: 18px;
+        
+    }
+    
+    .club{
+        display: none;
+    }
+    
+    .body-builder-image{
+        width: 353px;
+        height: 588px;
+        padding: 20px;
+        background: url(88);
+    }
+
+    .btn-1{
+         width: 149.91px;
+         height: 84.09px;
+         left: 240.2px;
+         top: 65.6px;
+         font-size: 12.24px;
+         backdrop-filter: blur(15.12px);
+         background: rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-2{
+        width: 165.74px;
+        height: 77.58px;
+        left: 32px;
+        top: 270px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .habit-description{
+        width: 100%;
+       height: 124px;
+       display: flex;
+       flex-direction: column;
+        justify-content: center;
+       align-items: center;
+       text-align: center;
+    
+    }
+
+    .habit-section-title{
+        font-size: 32px;
+    }
+
+
+    .habit-paragraph{
+        width: 316px;
+        align-items: center;
+        text-align: center;
+        margin: 14px 0px 25px;
+    }
+
+    .image-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .run-section{
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 348px;
+        height: 531px;
+    }
+
+     .run-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 54px;
+        margin-left: 55px;
+        
+     }
+   
+     
+     .run-description{
+        flex-direction: column;
+        display: flex;
+        /* align-items: flex-start;
+        justify-content: flex-start; */
+        /* text-align: center; */
+     }
+    .run-title{
+        width: 287px;
+        height: 76px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+       font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+         margin-left: 55px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+    .run-paragraph{
+        color: rgba(255, 255, 255, 0.5);
+       font-family: Inter;
+          font-size: 14px;
+         font-weight: 400;
+         margin-left: 55px;
+         width: 287px;
+          height: 96px;
+         
+    }
+
+    .run-img{
+        width: 350px;
+       height: 200px;
+    }
+
 }
