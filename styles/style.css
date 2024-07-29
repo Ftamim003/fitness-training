@@ -5,14 +5,16 @@
     margin: 0;
     padding: 0;
 }
-
+header,main{
+    max-width: 100%;
+}
 .shape{
     font-family: 'Miama', sans-serif; 
     line-height: 1;
     font-size: 120px;
     font-weight: 900;
     line-height: 120%;                                   
-}
+}  
 
 .healthy{
     position: absolute;
@@ -21,6 +23,7 @@
 }
 
 .inter{
+    max-width: 100%;
     font-family: "Inter", sans-serif;
     background-color: black;
 }
@@ -47,8 +50,7 @@
 }
 
 .navbar, .intro-section{
-    max-width: 1440px;
-    
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -90,8 +92,8 @@ font-weight: 400;
 }
 .btn-color{
     border-radius: 46px;
-    width: 30px;
-    height: 21px;
+    width: 1.875rem;
+    height: 1.312rem;
     padding: 8px 20px 8px 20px;
    
 
@@ -104,8 +106,8 @@ font-weight: 400;
 }
 
 .intro-title h1{
-    width: 520px;
-height: 282px;
+    width: 32.5rem;
+height: 17.625rem;
 color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 81px;
@@ -114,14 +116,14 @@ font-weight: 900;
 
 .intro-title{
     margin-top: 125px;
-    width: 599.05px;
-    height: 490px;
+    width: 37.44rem;
+    height: 30.625rem;
     
   
 }
 .intro-title p{
-    width: 520px;
-height: 48px;
+    width: 32.5rem;
+height: 3rem;
 color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 16px;
@@ -132,9 +134,9 @@ margin-bottom: 20px;
 }
 
 .btn-style{
-    margin: 28px 12px 28px 7px;
-    width: 224px;
-    height: 54px;
+    margin: 28px 12px 28px 0px;
+    width: 14rem;
+    height: 3.375rem;
     border-radius: 42px;
     padding: 16px 40px 16px 40px;
     color: rgb(255, 255, 255);
@@ -144,8 +146,8 @@ border: none;
 }
 
 .download-btn{
-    width: 224px;
-    height: 54px;
+    width: 14rem;
+    height: 3.375rem;
     border-radius: 42px;
     padding: 16px 40px 16px 40px;
     color: rgb(255, 255, 255);
@@ -158,8 +160,8 @@ border-radius: 42px;
 }
 
 .body-builder-image{
-    width: 450px;
-    height: 690px;
+    width: 28.125rem;
+    height: 43.125rem;
 }
 
 .intro-image{
@@ -167,8 +169,8 @@ border-radius: 42px;
 }
 .btn-1{
     position: absolute;
-    width: 193px;
-height: 98px;
+    width: 12.06rem;
+height: 6.125rem;
 left: 325px;
 top: 180px;
 box-sizing: border-box;
@@ -209,8 +211,8 @@ text-align: left;
 
 .btn-2{
     position: absolute;
-width: 206px;
-height: 96px;
+width: 12.875rem;
+height: 6rem;
 left: -95px;
 top: 515px;
 
@@ -247,7 +249,7 @@ text-align: left;
 /* Habit section */
 
 .habit-section{
-    max-width: 1440px;
+    max-width: 80%;
     margin: 100px auto 30px;
     display: flex;
     flex-direction: column;
@@ -255,8 +257,9 @@ text-align: left;
 }
 
 .habit-description{
-    max-width: 1440px;
-    height: 120px;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 7.5rem;
     display: flex;
     flex-direction: column;
      justify-content: center;
@@ -266,7 +269,7 @@ text-align: left;
 }
 
 .habit-paragraph{
-    width: 650px;
+    width: 40.625rem;
     color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 14px;
@@ -288,19 +291,19 @@ line-height: 120%;
 .image-container{
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 4.375rem;
     margin: 30px 0px 50px;
 }
 .image1{
     margin-top: 58px;
     border-radius: 100%;
-    width: 220px;
-    height: 220px;
+    width: 13.75rem;
+    height: 13.75rem;
 }
 
 .image-content{
-    width: 231px;
-    height: 274px; 
+    width: 14.43rem;
+    height: 17.125rem; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,9 +336,9 @@ text-align: center;
 
 
 .run-section{
-    max-width: 1440px;
-    margin: 55px auto;
-    height: 371px;
+    max-width: 80%;
+    margin: 0px auto 5px;
+    height: 23.187rem;
      border-radius: 18px;
     background: rgb(34, 34, 34);
      display: flex;
@@ -346,8 +349,8 @@ text-align: center;
 }
 
 .run-description{
-    width: 470px;
-   height: 320px;
+    width: 29.375rem;
+   height: 20rem;
 
 }
 .run-title{
@@ -378,8 +381,8 @@ background: url(4);
 }
     
 .run-btn{
-    width: 224px;
-    height: 54px;
+    width: 14rem;
+    height: 3.375rem;
     border-radius: 42px;
      background: rgb(230, 83, 60);
      margin: 34px 0px;
@@ -396,10 +399,12 @@ line-height: 22px;
 /* responsive design for mobile */
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:592px) {
 
-    .header{
-        max-width: 100%;
+    
+    .navbar, .intro-section{
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .header{
@@ -457,14 +462,14 @@ line-height: 22px;
     }
 
     .btn-style{
-        width: 169px;
-        height: 54px;
+        width: 10.56rem;
+        height: 3.375;
         margin-left: 15px;
     }
     
     .download-btn{
-        width: 169px;
-        height: 54px;
+        width: 10.56rem;
+        height: 3.375rem;
         box-sizing: border-box;
         padding: 16px 20px 16px 20px;
         border: 1px solid rgb(255, 255, 255);
@@ -478,31 +483,35 @@ line-height: 22px;
     }
     
     .body-builder-image{
-        width: 353px;
-        height: 588px;
+        width: 22.0625rem;
+        height: 36.75;
         padding: 20px;
         background: url(88);
     }
 
     .btn-1{
-         width: 149.91px;
-         height: 84.09px;
-         left: 240.2px;
-         top: 65.6px;
+         width: 10.32rem;
+         height: 5.3rem;
+         left: 227.2px;
+         top: 78.6px;
          font-size: 12.24px;
          backdrop-filter: blur(15.12px);
          background: rgba(255, 255, 255, 0.1);
     }
 
     .btn-2{
-        width: 165.74px;
-        height: 77.58px;
-        left: 32px;
-        top: 270px;
+        width: 10.32rem;
+        height: 4.84rem;
+        left: 15px;
+        top: 340px;
         margin-top: 10px;
         font-size: 15px;
     }
 
+    .habit-section{
+        max-width: 100%;
+        margin-top: 10px;
+    }
     .habit-description{
         width: 100%;
        height: 124px;
@@ -532,12 +541,12 @@ line-height: 22px;
     }
 
     .run-section{
-        margin: 0 auto;
+        margin: 10px auto 50px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 348px;
-        height: 531px;
+        width: 21.75rem;
+        height: 33.187rem;
     }
 
      .run-btn{
@@ -554,13 +563,11 @@ line-height: 22px;
      .run-description{
         flex-direction: column;
         display: flex;
-        /* align-items: flex-start;
-        justify-content: flex-start; */
-        /* text-align: center; */
+        
      }
     .run-title{
-        width: 287px;
-        height: 76px;
+        width: 17.937rem;
+        height: 4.75rem;
         color: rgb(255, 255, 255);
         font-family: Inter;
        font-size: 32px;
@@ -583,8 +590,8 @@ line-height: 22px;
     }
 
     .run-img{
-        width: 350px;
-       height: 200px;
+        width: 21.875rem;
+       height: 12.5rem;
     }
 
 }
