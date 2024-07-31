@@ -992,6 +992,43 @@ td, th {
     height: 17rem;
    }
 
+   .change-position-1{
+    position: absolute;
+    left: -161px;
+    top: 307px;
+   }
+
+   .child-position-1{
+    width: 15rem;
+    height: 10rem;
+    top: 535px;
+    left: -135px;
+    
+   }
+   
+   .child-position-3{
+    top: 820px;
+    left: -135px;
+   }
+   .child-position-2{
+    width: 15rem;
+    height: 10rem;
+    left: -135px;
+    top: 225px;
+       }
+   .change-position-2{
+    position: absolute;
+    left: -161px;
+    top: -6px;
+   }
+   .change-position-3{
+    position: absolute;
+    left: -161px;
+    top: 600px;
+   }
+   .child-position-4{
+         top: 225px;
+   }
    .parent-title{
     font-size: 16px;
     width: 11rem;
@@ -1005,9 +1042,12 @@ td, th {
     font-weight: 700;
   }
     
-  .child{
+  /* .child{
+    width: 25rem;
+    height: 20rem;
     top: 230px;
-  }
+    left: -30px;
+  } */
 
 
 }
