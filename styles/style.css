@@ -120,7 +120,27 @@ margin-top: 35px;
 margin-bottom: 20px;
 
 }
-
+.get{
+    position: absolute;
+}    
+.stay{
+    position: absolute;
+    top: 187px;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 120px;
+    margin-right: 5px;
+    margin-left: 11px;
+    font-weight: 300;  
+    font-stretch: expanded;
+    letter-spacing: 5px;                                            
+}
+.healthy{
+    position: relative;
+    top: 177px;
+    
+}
 .btn-style{
     margin: 28px 12px 28px 0px;
     width: 14rem;
@@ -233,7 +253,6 @@ text-align: left;
 
 
 
-
 /* Habit section */
 
 .habit-section{
@@ -279,6 +298,7 @@ line-height: 120%;
 .image-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 4.375rem;
     margin: 30px 0px 50px;
 }
@@ -546,10 +566,77 @@ td, th {
   }
 
 
+
+  
+/* About gym section */
+
+.about-gym{
+    max-width: 80%;
+    height: 35rem;
+    margin: 70px auto 100px;
+    display: flex;
+    flex-direction: column;
+}
+.about-gym-description{
+    max-width: 80%;
+    margin: 5px auto;
+    height: 7.5rem;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+   
+}
+
+.about-gym-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.375rem;
+    margin: 0px 0px 50px;
+}
+
+.about-section-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+}
+
+.image-no{
+    margin-top: 58px;
+    border-radius: 100%;
+    width: 13rem;
+    height: 13rem;
+}
+
+.about-image-paragraph{
+color: rgba(255, 255, 255, 0.5);
+width: 15rem;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+}
+.about-image-content{
+    width: 14.43rem;
+    height: 17.125rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    transition: .4s;
+}
+
+.about-image-content:hover{
+    transform: scale(1.1);
+}
+
+
   
   
   /* Team image section  */
- 
 
   .team-heading{
     width: 41rem;
@@ -785,8 +872,17 @@ td, th {
     .shape{
 
         font-size: 54px;
+        margin-left: 1px;
+    }
+      
+    .stay{
+        position: absolute;
+        top: 77px;
     }
 
+    .healthy{
+        top: 80px;
+    }
     .intro-title p{
         width: 274px;
        height: 96px;
@@ -868,11 +964,64 @@ td, th {
         margin: 14px 0px 25px;
     }
 
+
     .image-container{
         flex-direction: column;
         align-items: center;
     }
 
+
+
+
+
+
+
+    .about-gym{
+        max-width: 100%;
+        height: 107rem;
+    }
+    .about-gym-description{
+        width: 100%;
+       height: 124px;
+       display: flex;
+       flex-direction: column;
+        justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+
+    .about-section-title{
+        font-size: 32px;
+    }
+
+    
+    .about-gym-container{
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+    
+    .about-image-content{
+        height: 22rem;
+    }
+
+    .extra-height{
+        height: 23.5rem;
+    }
+    .about-image-paragraph{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        
+        }
+
+
+
+
+    /* Run section */
     .run-section{
         margin: 10px auto 50px;
         flex-direction: column;
