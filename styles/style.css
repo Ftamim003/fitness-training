@@ -386,6 +386,8 @@ letter-spacing: 0.3px;
      height: 330px;
      border-radius: 18px;
 background: url(4);
+object-fit: none;
+object-position: 66% 33%;
 }
     
 .run-btn{
@@ -1033,6 +1035,8 @@ text-align: center;
     .run-img{
         width: 21.875rem;
        height: 12.5rem;
+       object-fit: cover; 
+       
     }
 
     
