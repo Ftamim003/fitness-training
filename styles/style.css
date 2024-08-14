@@ -339,9 +339,9 @@ text-align: center;
 
 
 
+
+
 /* Run section */
-
-
 
 .run-section{
     max-width: 80%;
@@ -740,7 +740,7 @@ text-align: center;
   /* Footer Section */
  .footer-section{
     max-width: 100%;
-    margin: 35px auto 75px;
+    margin: 35px auto 0px;
     height: 25.7rem;
     background: rgb(34, 34, 34);
  }
@@ -820,6 +820,8 @@ text-align: center;
         padding: 0
     }
     
+
+    /* heading section */
     .navbar, .intro-section{
         max-width: 90%;
         margin: 0 auto;
@@ -1317,7 +1319,7 @@ text-align: center;
   /* Footer Section */
 
   .footer-section{
-    margin: 21px auto 35px;
+    margin: 21px auto 0px;
     height: 55rem;
   }
 
