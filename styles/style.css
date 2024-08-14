@@ -631,6 +631,8 @@ text-align: center;
 
 .about-image-content:hover{
     transform: scale(1.1);
+    box-shadow: 5px 12px 10px white;
+   
 }
 
 
@@ -975,50 +977,7 @@ text-align: center;
 
 
 
-
-    .about-gym{
-        max-width: 100%;
-        height: 107rem;
-    }
-    .about-gym-description{
-        width: 100%;
-       height: 124px;
-       display: flex;
-       flex-direction: column;
-        justify-content: center;
-       align-items: center;
-       text-align: center;
-    }
-
-    .about-section-title{
-        font-size: 32px;
-    }
-
-    
-    .about-gym-container{
-        flex-direction: column;
-        align-items: center;
-        
-    } 
-    
-    .about-image-content{
-        height: 22rem;
-    }
-
-    .extra-height{
-        height: 23.5rem;
-    }
-    .about-image-paragraph{
-        color: rgba(255, 255, 255, 0.5);
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        text-align: center;
-        
-        }
-
-
+ 
 
 
     /* Run section */
@@ -1170,6 +1129,86 @@ text-align: center;
     display: flex;
     margin: 0px;
    }
+
+
+
+
+
+   /* About gym section */
+
+   .about-gym{
+    max-width: 100%;
+    margin: 0 auto;
+    height: 125rem;
+}
+.about-gym-description{
+    width: 100%;
+   height: 124px;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.about-section-title{
+    font-size: 32px;
+}
+
+
+.about-gym-container{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+} 
+
+.about-image-content{
+    margin: 0 auto ;
+    
+}
+.extra-height1{
+    height: 26rem;
+    margin-top: 10px;
+}
+.extra-height1:hover{
+    box-shadow: 5px 12px 10px rgb(245, 161, 175);
+}
+
+.extra-height2{
+    height: 29rem;
+}
+.extra-height2:hover{
+    box-shadow: 5px 12px 10px rgb(191, 191, 242)
+}
+
+.extra-height3{
+    height: 28rem;
+}
+
+.extra-height3:hover{
+    box-shadow: 5px 12px 10px rgb(210, 243, 161);
+}
+
+.extra-height4{
+    height: 27rem;
+}
+
+.extra-height4:hover{
+    box-shadow: 5px 12px 10px rgb(179, 254, 255)
+}
+
+
+.about-image-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+    }
 
 
 
